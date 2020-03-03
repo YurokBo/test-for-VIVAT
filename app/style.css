@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: Oswald;
+    font-weight: normal;
+    src: url("fonts/oswaldregular.woff2") format("woff2"),
+    url("fonts/oswaldregular.woff") format("woff"),
+    url("fonts/oswaldmedium.woff") format("woff"),
+    url("fonts/oswaldmedium.woff2") format("woff2");
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: Oswald;
+}
+
+.navbar {
+    max-width: 1220px;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+}
+
+.container-sm {
+    max-width: 1440px;
+    padding: 0;
+}
+
+.header__content {
+    display: flex;
+    height: 696px;
+}
+
+.header__content-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /*margin: 226px 118px 40px 190px;*/
+
+}
+
+.header__wrapper-left {
+    margin: 226px 118px 0 190px;
+}
+
+.header__content-title {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__content-text {
+    margin: 50px 0 50px 0;
+}
+
+.btn {
+    background-color: #68B738;
+    width: 300px;
+    border-radius: 0;
+}
+
+.header__content-right {
+    flex: 1;
+    background-image: url("img/index-background-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+
+.header__content-center {
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translate(-50% -50%);
+
+}
+
+.header__center-img {
+    position: absolute;
+    left: 39%;
+    padding-top: 8%;
+
+    /*transform: translate(-50% -50%);*/
+}
+
+.nav-link, .navbar-brand {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: white;
+    border-bottom: solid 0.5px #ffffff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+/*-------------------------------------*/
+.catalogs {
+    margin-top: 80px;
+}
+
+.catalogs-wrapper {
+    display: flex;
+    /*justify-content: space-between;*/
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+
+.catalogs-wrapper__content {
+    background-color: #F2F2F2;
+    width: 570px;
+}
+
+.row {
+    width: 100%;
+    padding: 0;
+    justify-content: space-between;
+
+}
+
+.catalogs__content {
+    margin: 42px 56px 63px 52px;
+}
+
+.catalogs__item {
+    background-color: #F2F2F2;
+    flex: 1;
+
+}
+
+.catalogs__item-title {
+    display: flex;
+    align-items: center;
+}
+
+.catalogs__icon-fon {
+    background-color: #68B738;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.catalogs__title {
+    margin-left: 64px;
+}
+
+.catalogs__icon-slim {
+    width: 70px;
+}
+
+.catalogs__icon-fon-pro {
+    background-color: #68B738;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /* text-align: center;*/
+}
+
+.catalogs__icon-pro {
+
+    width: 133px;
+
+}
+
+.catalogs__arrow {
+    width: 24px;
+}
+
+/*------------------------*/
+
+.sub-title {
+    padding: 81px 0 75px 0;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/*------------------------*/
+.description-row-wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.description-row__logo {
+    background-color: #68B738;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-row__item {
+
+    height: 228px;
+
+}
+
+.description-row__text {
+    padding-top: 37px;
+}
+
+/*--------------------------------*/
+
+.example {
+    display: flex;
+    max-width: 1440px;
+    background-color: #F2F2F2;
+}
+
+.example-row {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.example__description {
+
+    width: 570px;
+}
+
+.example__visual {
+
+    width: 570px;
+}
+
+/*--------------------------*/
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.footer__logo {
+
+    width: 33.33%;
+}
+
+.footer__logo-logo {
+    width: 129px;
+}
+
+.socials ul {
+    display: flex;
+    width: 33.33%;
+   list-style-type: none;
+    justify-content: space-around;
+}
+
+.html__academy {
+    display: flex;
+    width: 33.33%;
+}
+
+.html__academy-logo {
+    width: 27px;
+}
+
+
+
